@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(31, 33, 31)
+}  
+
+.info-container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(46, 47, 46);
+}
+
+
+.info-container > img{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width:250px;
+    background-color: white;
+}
+
+.email{
+    width:15px;
+    margin-right: 7px;
+}
+
+.linkedin{
+    width:15px;
+    margin-right: 7px;
+}
+
+.info-container > h2{
+    color:white;
+    
+}
+
+.info-container > p{
+    color:white;
+    margin-top:-10px;
+    font-size: 12px;
+}
+
+.info-container-buttons-space{
+    display:flex;
+    flex-direction: row;
+}
+
+.info-container-buttons-space > button{
+    width:100px;
+}
+
+.info-container-button1{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-right:30px;
+    height:30px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 6px;
+    border: none;
+}
+
+.info-container-button1 > p{
+    font-weight: 550;
+}
+
+.info-container-button2 > p{
+    font-weight: 550;
+    color:white;
+}
+
+.info-container-button2{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height:30px;
+    background-color: rgb(72, 164, 184);
+    border-radius: 6px;
+    border: none;
+}
+
+
+.about-container{
+    width:250px;
+    display:flex;
+    flex-direction: column;
+    background-color:rgb(46, 47, 46);
+}
+
+.about-container > h2{
+    text-align: left;
+    color:white;
+    margin-left:10px;
+    margin-top:30px;
+    font-size: 14px;
+}
+
+.about-container > p{
+    color:white;
+    margin-left:10px;
+    margin-top:-10px;
+    font-size: 12px;
+    margin-right:10px;
+}
+
+.interests-container{
+    width:250px;
+    display:flex;
+    flex-direction: column;
+    background-color:rgb(46, 47, 46);
+}
+
+.interests-container > h2{
+    text-align: left;
+    color:white;
+    margin-left:10px;
+    margin-top:30px;
+    font-size: 14px;
+}
+
+.interests-container > p{
+    color:white;
+    margin-left:10px;
+    margin-top:-10px;
+    font-size: 12px;
+    margin-right:10px;
+}
+
+.footer-container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    height:50px;
+    background-color: rgb(38, 39, 38);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.twitter
+{
+    width:25px;
+    margin-right: 10px;
+}
+
+.fb{
+    width:20px;
+    margin-right: 10px;
+}
+
+.instagram{
+    width:22px;
+    margin-right: 10px;
+}
+
+.github{
+    width:30px;
+}
